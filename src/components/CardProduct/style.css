@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Science+Gothic:wght@100..900&display=swap');
+
+
+* {
+    margin: auto;
+    padding: 0;
+}
+
+.body {
+    background: #000000;
+background: linear-gradient(180deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 40%);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    background-color: gradient();
+}
+
+.card {
+    display: flex;
+    width: 210px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.container-full {
+    max-width: 1200px;
+    border-radius: 10px;
+    background: #ffffff;
+background: radial-gradient(circle,rgba(255, 255, 255, 1) 0%, rgba(253, 245, 45, 1) 100%);
+}
+
+.title {
+    font-family:  Inter;
+    padding: 10px;
+}
+
+.container img {
+    margin-bottom: 10px;
+    max-width: 100px;
+}
+
+.btn-preco {
+    font-size: 25px;
+    font-family: Science Gothic;
+    margin-right: 60px;
+}
